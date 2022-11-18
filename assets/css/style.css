@@ -405,16 +405,14 @@ ul.links {
     margin: 10vh auto 20vh;
   }*/
 }
-@media (max-width:360px){
-  
 
-
-}
 
 .font-l {
   font-size: large;
 }
-
+.col-lg-9 ul li a{
+  padding: 10px;
+}
 .sm-links {
   padding: 25px;
   right: 30px;
@@ -427,7 +425,7 @@ ul.links {
   padding: 3px;
 }
 .sm-links ul li a:hover{
-  color: red;
+  color:red;
 }
 .sm-links ul{
   list-style: none;
@@ -724,11 +722,7 @@ ul.links {
 .navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
-.navbar-toggle{
-  position:absolute;
-  right:5px;
-  width:30px;
-}
+
 .navbar-custom a {
   color: #fff;
 }
@@ -792,6 +786,13 @@ ul.links {
     margin-left: 3%;
   }
 }
+@media only screen and (max-width:990px;){
+  .col-lg-9{
+    margin-left: -40%;
+  }
+}
+
+
 /* nav bar end*/
 .intro1 {
   width: 100%;
